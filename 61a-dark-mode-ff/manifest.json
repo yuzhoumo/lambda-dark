@@ -9,7 +9,7 @@
         "js": ["js/content.js"],
         "matches": ["*://cs61a.org/*"]
     }],
-    "description": "Exension to enable dark mode on cs61a.org",
+    "description": "Extension for toggling dark mode on cs61a.org",
     "icons": {
         "48": "icons/icon48.png",
         "96": "icons/icon96.png"
@@ -17,6 +17,6 @@
     "manifest_version": 2,
     "name": "CS61A Dark Mode",
     "permissions": ["tabs"],
-    "version": "0.1.0",
+    "version": "1.0.0",
     "web_accessible_resources": ["css/override.css"]
 }
