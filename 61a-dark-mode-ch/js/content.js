@@ -1,5 +1,6 @@
 let port = chrome.runtime.connect({name:"cs-port"});
 
+// Applies dark mode CSS if extension is enabled
 const injectCSS = (disabled) => {
     if (!disabled) {
         var head = document.head;
@@ -17,8 +18,10 @@ const injectCSS = (disabled) => {
     }
 }
 
+// Request boolean (on/off) from background script
 port.postMessage({});
 
+// Receives response to request and runs injectCSS
 port.onMessage.addListener( (message) => {
     injectCSS(message.disabled);
 });
