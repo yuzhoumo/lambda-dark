@@ -16,7 +16,6 @@
     },
     "manifest_version": 2,
     "name": "CS61A Dark Mode",
-    "permissions": ["tabs"],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "web_accessible_resources": ["css/override.css"]
 }

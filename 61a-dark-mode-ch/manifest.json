@@ -6,10 +6,8 @@
         "default_title": "cs61a.org Dark Mode (Enabled)"
     },
     "content_scripts": [{
-	"all_frames": false,
         "js": ["js/content.js"],
-        "matches": ["*://cs61a.org/*"],
-	"run_at": "document_start"
+        "matches": ["*://cs61a.org/*"]
     }],
     "description": "Extension for toggling dark mode on cs61a.org",
     "icons": {
@@ -18,7 +16,6 @@
     },
     "manifest_version": 2,
     "name": "CS61A Dark Mode",
-    "permissions": ["tabs"],
-    "version": "1.0.0",
+    "version": "1.0.2",
     "web_accessible_resources": ["css/override.css"]
 }
