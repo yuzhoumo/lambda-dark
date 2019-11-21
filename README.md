@@ -1,4 +1,4 @@
-# CS61A Dark Mode Install the extension here
+# CS61A Dark Mode
 
 - **Chrome**: https://chrome.google.com/webstore/detail/cs61a-dark-mode/bpicjnhbdanaihhfelhmiccampoeopob
 - **Firefox**: https://github.com/PerpetualPanda/cs61a.org-dark-mode/releases/download/v1.0.2/firefox_cs61a-dark-mode-1.0.2.xpi
