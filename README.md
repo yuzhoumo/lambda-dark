@@ -13,6 +13,6 @@ CS61A Dark Mode is a browser extension available for both Firefox and Chromium b
 
 ### Screenshots:
 
-![Homepage Screenshot](/screenshots/screenshot.jpg?raw=true)
+![Homepage Screenshot](/screenshots/screenshot.jpg?raw=true "Homepage")
 
-![Assignment Page Screenshot](/screenshots/screenshot-2.jpg?raw=true)
+![Assignment Page Screenshot](/screenshots/screenshot-2.jpg?raw=true "Assignment Page")
