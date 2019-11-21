@@ -7,6 +7,6 @@
 
 ---
 
-### Have you ever opened up the course website at night and got blinded by the light theme? Then this extension is for you!
+### Have you ever opened the CS61A website at night and got blinded by the light theme?
 
 CS61A Dark Mode is a browser extension available for both Firefox and Chromium based browsers for toggling a dark mode on the UC Berkeley's intro computer science course website: https://cs61a.org. It can be turned on/off by clicking on the extension icon.
