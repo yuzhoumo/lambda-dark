@@ -13,7 +13,4 @@ CS61A Dark Mode is a browser extension available for both Firefox and Chromium b
 
 ### Screenshots:
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-
-![Homepage Screenshot](/screenshots/screenshot.jpg) | ![Assignment Page Screenshot](/screenshots/screenshot-2.jpg)
+![Homepage Screenshot](/screenshots/screenshot.jpg) ![Assignment Page Screenshot](/screenshots/screenshot-2.jpg)
