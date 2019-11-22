@@ -1,4 +1,13 @@
-let port = browser.runtime.connect({name:"cs-port"});
+// Allows Chrome, Firefox, & Opera extension to use the same codebase
+const global =
+  'undefined' !== typeof chrome ||
+  ('undefined' !== window.opr && 'undefined' !== opr.addons)
+    ? chrome // Chrome or Opera
+    : 'undefined' !== InstallTrigger
+    ? browser // Firefox
+    : void 0;
+
+let port = global.runtime.connect({name:"cs-port"});
 
 // Applies dark mode CSS if extension is enabled
 const injectCSS = (disabled) => {
