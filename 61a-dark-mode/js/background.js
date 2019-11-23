@@ -1,8 +1,8 @@
-// Allows Chrome, Firefox, & Opera extension to use the same codebase
+// Allows Chromium & Firefox extensions to use the same codebase
 const global =
   'undefined' !== typeof chrome ||
   ('undefined' !== window.opr && 'undefined' !== opr.addons)
-    ? chrome // Chrome or Opera
+    ? chrome // Chromium
     : 'undefined' !== InstallTrigger
     ? browser // Firefox
     : void 0;
