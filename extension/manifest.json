@@ -1,0 +1,21 @@
+{
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+    "browser_action": {
+        "default_title": "CS61B Dark Mode (Enabled)"
+    },
+    "content_scripts": [{
+        "js": ["js/content.js"],
+        "matches": ["*://inst.eecs.berkeley.edu/~cs61b*"]
+    }],
+    "description": "An extension for toggling dark mode on the CS61B website.",
+    "icons": {
+        "48": "icons/icon48.png",
+		"96": "icons/icon96.png"
+    },
+    "manifest_version": 2,
+    "name": "Darth Hilfinger",
+    "version": "1.0.0",
+    "web_accessible_resources": ["css/override.css"]
+}

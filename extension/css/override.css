@@ -1,0 +1,158 @@
+/* BACKGROUND AND TEXT STYLE */
+
+a {
+  color: #87CEFA;
+}
+
+body {
+  background-color: #0c0c0c;
+  color: #ddd;
+}
+
+div#sidebar {
+  background-color: #222 !important;
+}
+
+h1,h2,h3,h4,h5,p,a, address {
+  font-family: sans-serif;
+}
+
+main#content {
+  background-color: #252525 !important;
+}
+
+/* END BACKGROUND AND TEXT STYLE */
+
+
+/* CONTENT MARGINS */
+
+div#courseinfo {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-right: 140px;
+  margin-left: 140px;
+}
+
+div#coursename {
+  margin-top: 50px;
+  margin-right: 140px;
+  margin-left: 140px;
+}
+
+div#content {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-right: 140px;
+  margin-left: 140px;
+}
+
+/* END CONTENT MARGINS */
+
+
+/* TABLES */
+
+table th {
+  border: 1px solid #333 !important;
+}
+
+table td {
+  border: 1px solid #333 !important;
+}
+
+table tr.odd {
+  background-color: #111 !important;
+}
+
+table td.even {
+  background-color: #222 !important;
+}
+
+table tr:hover {
+  background-color: #222 !important;
+}
+
+.staff, .staff tr, .staff td {
+  border: 1px solid #333 !important;
+  border-collapse: collapse !important;
+}
+
+/* END TABLES */
+
+
+/* CODE THEMING */
+
+/* Tomorrow Comment */
+.hljs-comment, .hljs-quote {
+  color: #969896;
+}
+
+/* Tomorrow Red */
+.hljs-variable, .hljs-template-variable, .hljs-tag, .hljs-name, .hljs-selector-id, .hljs-selector-class, .hljs-regexp, .hljs-deletion {
+  color: #cc6666;
+}
+
+/* Tomorrow Orange */
+.hljs-number, .hljs-built_in, .hljs-builtin-name, .hljs-literal, .hljs-type, .hljs-params, .hljs-meta, .hljs-link {
+  color: #de935f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+  color: #f0c674;
+}
+
+/* Tomorrow Green */
+.hljs-string, .hljs-symbol, .hljs-bullet, .hljs-addition {
+  color: #b5bd68;
+}
+
+/* Tomorrow Blue */
+.hljs-title, .hljs-section {
+  color: #81a2be;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword, .hljs-selector-tag {
+  color: #b294bb;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #1d1f21;
+  color: #c5c8c6;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+pre {
+  background-color: #1d1f21;
+  border: 0;
+  border-left: 3px solid #f36d33;
+  color: #666;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
+}
+
+code {
+  background-color: #111;
+  border: 0;
+  color: #ddd !important;
+}
+
+/* END CODE THEMING */
