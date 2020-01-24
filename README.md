@@ -4,7 +4,7 @@
 - **Firefox**: https://github.com/yuzhoumo/lambda-dark/releases/download/v1.0.0/firefox_darth_hilfinger-1.0.0.xpi
 ---
 
-A version of Lambda dark but for Berkeley's CS61B course website.
+A version of Lambda Dark for Berkeley's CS61B course website.
 
 ## Screenshots
 
