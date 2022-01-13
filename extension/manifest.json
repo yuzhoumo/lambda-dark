@@ -3,19 +3,19 @@
         "scripts": ["js/background.js"]
     },
     "browser_action": {
-        "default_title": "cs61a.org Dark Mode (Enabled)"
+        "default_title": "CS61B Dark Mode (Enabled)"
     },
     "content_scripts": [{
         "js": ["js/content.js"],
-        "matches": ["*://cs61a.org/*"]
+        "matches": ["*://inst.eecs.berkeley.edu/~cs61b*"]
     }],
-    "description": "Extension for toggling dark mode on cs61a.org",
+    "description": "An extension for toggling dark mode on the CS61B website.",
     "icons": {
         "48": "icons/icon48.png",
-        "96": "icons/icon96.png"
+		"96": "icons/icon96.png"
     },
     "manifest_version": 2,
-    "name": "CS61A Dark Mode",
-    "version": "1.0.2",
+    "name": "Darth Hilfinger",
+    "version": "1.0.0",
     "web_accessible_resources": ["css/override.css"]
 }

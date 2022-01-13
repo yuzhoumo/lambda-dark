@@ -12,16 +12,16 @@ let disable = false;
 
 // Sets title & badge text, toggles dark mode (on/off)
 const toggleExtension = (title) => { 
-    if (title == "cs61a.org Dark Mode (Enabled)") {
-        global.browserAction.setTitle({title: "cs61a.org Dark Mode (Disabled)"});
+    if (title == "CS61B Dark Mode (Enabled)") {
+        global.browserAction.setTitle({title: "CS61B Dark Mode (Disabled)"});
         disable = true;
         global.browserAction.setBadgeText({text: "OFF"});
-        console.log('[61A Dark Mode]: Disabled');
+        console.log('[CS61B Dark Mode]: Disabled');
     } else {
-        global.browserAction.setTitle({title: "cs61a.org Dark Mode (Enabled)"});
+        global.browserAction.setTitle({title: "CS61B Dark Mode (Enabled)"});
         disable = false;
         global.browserAction.setBadgeText({text: ""});
-        console.log('[61A Dark Mode]: Enabled');
+        console.log('[CS61B Dark Mode]: Enabled');
     }
     
     global.tabs.reload(currentTab.tabId, {});
@@ -36,10 +36,10 @@ global.browserAction.onClicked.addListener( (tab) => {
 // Sends boolean (if dark mode is on/off) to content script
 const connected = (csPort) => {
     csPort.onMessage.addListener( (message) => {
-        console.log("[61A Dark Mode]: Background script received message from content script");
+        console.log("[CS61B Dark Mode]: Background script received message from content script");
     });
     csPort.postMessage({disabled: disable});
-    console.log("[61A Dark Mode]: Background script responded to message from content script");
+    console.log("[CS61B Dark Mode]: Background script responded to message from content script");
 }
 
 global.runtime.onConnect.addListener(connected);

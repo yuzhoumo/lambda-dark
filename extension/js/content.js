@@ -21,9 +21,9 @@ const injectCSS = (disabled) => {
 
         head.appendChild(link);
 
-        console.log("[61A Dark Mode]: Enabled");
+        console.log("[CS61B Dark Mode]: Enabled");
     } else {
-        console.log("[61A Dark Mode]: Disabled");
+        console.log("[CS61B Dark Mode]: Disabled");
     }
 }
 
